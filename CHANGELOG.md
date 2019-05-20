@@ -1,3 +1,9 @@
+## 4.5.3
+* [Fix changes for Serenata 5.0 leaking through](https://github.com/Gert-dev/php-ide-serenata/issues/468)
+
+## 4.5.2
+* Update to Serenata [4.3.1](https://gitlab.com/Serenata/Serenata/tags/4.3.1)
+
 ## 4.5.1
 * [Fix `SHA384 is not supported by your openssl extension` on PHP 7.2 setups](https://github.com/Gert-dev/php-ide-serenata/issues/435) (thanks to [@ivanaugustobd](https://github.com/ivanaugustobd))
 
