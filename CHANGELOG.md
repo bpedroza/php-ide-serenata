@@ -1,3 +1,27 @@
+## 5.4.0
+* Update dependencies
+* Update to [Serenata 5.4.0](https://gitlab.com/Serenata/Serenata/tags/5.4.0)
+
+## 5.3.0
+* Update dependencies
+* Update to [Serenata 5.3.0](https://gitlab.com/Serenata/Serenata/tags/5.3.0)
+* [Don't update settings every project open to avoid settings synchronization being triggered](https://github.com/Gert-dev/php-ide-serenata/issues/499)
+
+## 5.2.0
+* Update to [Serenata 5.2.0](https://gitlab.com/Serenata/Serenata/tags/5.2.0)
+
+## 5.1.0
+* Update to [Serenata 5.1.0](https://gitlab.com/Serenata/Serenata/tags/5.1.0)
+
+## 5.0.2
+* [Fix installation on Windows due to `apm` breaking with unstable Git versions](https://github.com/Gert-dev/php-ide-serenata/issues/477)
+    * A fix for this is pending upstream (thanks @UziTech).
+    * This reintroduces [a bug](https://github.com/Gert-dev/php-ide-serenata/issues/487) I fixed by targeting the latest release, but this is not as worse as breaking installation on Windows.
+
+## 5.0.1
+* [Fix "Cannot read property 'set' of undefined"](https://github.com/Gert-dev/php-ide-serenata/issues/476) (thanks to @bpedroza)
+* [Fix incorrect paths in generated project configuration on Windows](https://github.com/Gert-dev/php-ide-serenata/pull/479) (thanks to @UziTech)
+
 ## 5.0.0
 ### Major Changes
 * Update to [Serenata 5.0.0](https://gitlab.com/Serenata/Serenata/tags/5.0.0)
